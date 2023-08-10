@@ -20,7 +20,7 @@ body{
     height: 200px;
     margin: 10px;
     padding: 20px;
-    border: 1px dotted white;
+    border: 4px dotted white;
 }
 .list{
     background-color: rgba(230, 32, 114);
@@ -30,4 +30,13 @@ body{
     color: white;
     font-weight: 600;
     cursor:grab;
+}
+
+@media screen and (max-width:500px) {
+    .main{
+        display: block;
+    }
+    .main #left, #right{
+        margin-left: 0;
+    }
 }
