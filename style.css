@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body{
+    background: linear-gradient(120deg,rgb(25, 221, 123),rgb(33, 216, 176)) no-repeat ;
+    background-size: 100vw 100vh;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin-top:150px ;
+}
+.main{
+    display: flex;
+}
+.main #left, #right{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dotted white;
+}
+.list{
+    background-color: rgba(230, 32, 114);
+    margin: 15px 0 ;
+    padding: 4px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    cursor:grab;
+}
